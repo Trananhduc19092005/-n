@@ -1,0 +1,42 @@
+﻿@model Đồ_Án_Newspaper.Models.Admin
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Admin</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Admin_usernane)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Admin_usernane)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Admin_password)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Admin_password)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Admin_id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

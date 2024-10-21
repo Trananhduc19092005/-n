@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewspaperDboV2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="Admin_id" />
+    </Key>
+    <Property Name="Admin_usernane" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Admin_password" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Admin_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChuyenMuc">
+    <Key>
+      <PropertyRef Name="Id_chuyenmuc" />
+    </Key>
+    <Property Name="Id_chuyenmuc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LoaiChuyenMuc" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Comment_id" />
+    </Key>
+    <Property Name="Comment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Comment_content" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Guess_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Guess">
+    <Key>
+      <PropertyRef Name="Guess_id" />
+    </Key>
+    <Property Name="Guess_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Guess_name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Admin_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Liked">
+    <Key>
+      <PropertyRef Name="LikedId" />
+    </Key>
+    <Property Name="LikedId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Guess_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Newspaper">
+    <Key>
+      <PropertyRef Name="Id_bao" />
+    </Key>
+    <Property Name="Id_bao" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Anh" Type="image" />
+    <Property Name="NoiDung" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TieuDe" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Admin_id" Type="int" />
+    <Property Name="Id_chuyenmuc" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Comment__Guess_i__3F466844">
+    <End Role="Guess" Type="Self.Guess" Multiplicity="1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guess">
+        <PropertyRef Name="Guess_id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="Guess_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Guess__Admin_id__3C69FB99">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="1" />
+    <End Role="Guess" Type="Self.Guess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="Admin_id" />
+      </Principal>
+      <Dependent Role="Guess">
+        <PropertyRef Name="Admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Liked__Guess_id__4222D4EF">
+    <End Role="Guess" Type="Self.Guess" Multiplicity="1" />
+    <End Role="Liked" Type="Self.Liked" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guess">
+        <PropertyRef Name="Guess_id" />
+      </Principal>
+      <Dependent Role="Liked">
+        <PropertyRef Name="Guess_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Newspaper__Admin__44FF419A">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="0..1" />
+    <End Role="Newspaper" Type="Self.Newspaper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="Admin_id" />
+      </Principal>
+      <Dependent Role="Newspaper">
+        <PropertyRef Name="Admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Newspaper__Id_ch__45F365D3">
+    <End Role="ChuyenMuc" Type="Self.ChuyenMuc" Multiplicity="1" />
+    <End Role="Newspaper" Type="Self.Newspaper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChuyenMuc">
+        <PropertyRef Name="Id_chuyenmuc" />
+      </Principal>
+      <Dependent Role="Newspaper">
+        <PropertyRef Name="Id_chuyenmuc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NewspaperDboV2ModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChuyenMuc" EntityType="Self.ChuyenMuc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comment" EntityType="Self.Comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guess" EntityType="Self.Guess" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Liked" EntityType="Self.Liked" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Newspaper" EntityType="Self.Newspaper" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Comment__Guess_i__3F466844" Association="Self.FK__Comment__Guess_i__3F466844">
+      <End Role="Guess" EntitySet="Guess" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Guess__Admin_id__3C69FB99" Association="Self.FK__Guess__Admin_id__3C69FB99">
+      <End Role="Admin" EntitySet="Admin" />
+      <End Role="Guess" EntitySet="Guess" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Liked__Guess_id__4222D4EF" Association="Self.FK__Liked__Guess_id__4222D4EF">
+      <End Role="Guess" EntitySet="Guess" />
+      <End Role="Liked" EntitySet="Liked" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Newspaper__Admin__44FF419A" Association="Self.FK__Newspaper__Admin__44FF419A">
+      <End Role="Admin" EntitySet="Admin" />
+      <End Role="Newspaper" EntitySet="Newspaper" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Newspaper__Id_ch__45F365D3" Association="Self.FK__Newspaper__Id_ch__45F365D3">
+      <End Role="ChuyenMuc" EntitySet="ChuyenMuc" />
+      <End Role="Newspaper" EntitySet="Newspaper" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Đồ_Án_Newspaper.Models.Newspaper>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<h2> Thông Tin Bài Báo </h2>
+
+<p>
+    @Html.ActionLink("Tạo Bài Báo Mới", "Create", " ", new { @class = "btn btn-success" })
+</p>
+<table class="table table-dark">
+    <tr>
+        <th>
+            Ảnh
+        </th>
+        <th>
+            Nội Dung
+        </th>
+        <th class="w-0">
+            Tiêu Đề
+        </th>
+
+        <th class="w-0">
+            Tiêu Đề Phụ 
+        </th>
+        <th>
+            Loại Chuyên Mục
+        </th>
+        <th>
+            Người Quản Lý
+        </th>
+
+        <th>
+            Tùy Chọn
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Anh)
+        </td>
+        <td class="overflow-hidden" style="width : 200px;">
+            <p style="display : -webkit-box ; -webkit-box-orient : vertical ; overflow : hidden ; text-overflow : ellipsis ; -webkit-line-clamp : 3">
+                @Html.DisplayFor(modelItem => item.NoiDung)
+            </p>
+        </td>
+        <td style="width : 200px;">
+            @Html.DisplayFor(modelItem => item.TieuDe)
+        </td>
+
+        <td style="width : 200px;">
+            @Html.DisplayFor(modelItem => item.TieuDePhu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ChuyenMuc.LoaiChuyenMuc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Admin.Admin_usernane)
+        </td>
+        <td>
+            @Html.ActionLink("Chỉnh Sửa", "Edit" , "Newspapers" , new { id=item.Id_bao} , new {@class = "btn btn-primary"}) |
+            @Html.ActionLink("Chi Tiết", "Details", new { id=item.Id_bao }, new { @class = "btn btn-success" }) |
+            @Html.ActionLink("Xóa", "Delete", new { id=item.Id_bao }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

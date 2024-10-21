@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Đồ_Án_Newspaper.Models.ChuyenMuc>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<h2> Danh Sách </h2>
+
+<p>
+    @Html.ActionLink("Tạo Chuyên Mục Mới", "Create" , " " , new {@class = "btn btn-success"})
+</p>
+<table class="table table-dark">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LoaiChuyenMuc)
+        </th>
+        <th>
+            Tùy Chọn
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoaiChuyenMuc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", "ChuyenMucs" , new { id = item.Id_chuyenmuc } , new {@class = "btn btn-primary"}) |
+            @Html.ActionLink("Details", "Details", "ChuyenMucs", new { id=item.Id_chuyenmuc }, new { @class = "btn btn-success" }) |
+            @Html.ActionLink("Delete", "Delete" , "ChuyenMucs" , new { id=item.Id_chuyenmuc } , new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

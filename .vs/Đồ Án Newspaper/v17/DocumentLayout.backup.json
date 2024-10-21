@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\controllers\\newspaperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\controllers\\newspaperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|d:\\aspnet mvc\\\u0111\u1ED3 \u00E1n newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\controllers\\chuyenmucscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\controllers\\chuyenmucscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|d:\\aspnet mvc\\\u0111\u1ED3 \u00E1n newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\adminareaarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\adminareaarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\guess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\guess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\liked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\liked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\chuyenmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\chuyenmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\shared\\_adminmasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\shared\\_adminmasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\newspapers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\models\\newspaper.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A7F39C8-9128-4C2B-BFBD-EEE726E60CEB}|\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper.csproj|solutionrelative:\u0111\u1ED3 \u00E1n newspaper\\areas\\adminarea\\views\\chuyenmucs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Newspaper.Context.tt",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.Context.tt",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.Context.tt",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.Context.tt",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-21T14:30:07.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Liked.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Liked.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Liked.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Liked.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Liked.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:04:48.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Guess.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Guess.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Guess.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Guess.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Guess.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:04:46.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Comment.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Comment.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:04:45.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChuyenMuc.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\ChuyenMuc.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\ChuyenMuc.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\ChuyenMuc.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\ChuyenMuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:04:44.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\AdminsController.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAlwEYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:27:22.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Details.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Details.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Details.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T11:56:07.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Edit.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Edit.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Edit.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T11:56:06.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Index.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Index.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T11:56:06.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Login.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Login.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Login.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Login.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:48:32.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Delete.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Delete.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Delete.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:43:04.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Create.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Create.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Create.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Admins\\Create.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowD8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:27:26.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Admin.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Admin.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Admin.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:12:59.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_AdminMasterLayout.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Shared\\_AdminMasterLayout.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Shared\\_AdminMasterLayout.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Shared\\_AdminMasterLayout.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Shared\\_AdminMasterLayout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T05:51:11.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Newspaper.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:44:53.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Index.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Index.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T09:12:14.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Newspaper.tt",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.tt",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.tt",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.tt",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-20T11:51:17.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Edit.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Edit.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Edit.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T11:38:08.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Delete.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Delete.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T11:36:05.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Details.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Details.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Details.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T11:33:34.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Create.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Create.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Create.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\Newspapers\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T05:53:40.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Index.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Index.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T06:29:18.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Edit.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Edit.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T06:29:17.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Details.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Details.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Details.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Details.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T06:29:14.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Delete.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Delete.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T06:28:50.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Create.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Create.cshtml",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Create.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Views\\ChuyenMucs\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T05:54:21.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChuyenMucsController.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\ChuyenMucsController.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\ChuyenMucsController.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\ChuyenMucsController.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\ChuyenMucsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:53:17.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewspapersController.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\NewspapersController.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\NewspapersController.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\NewspapersController.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\Controllers\\NewspapersController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwGcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:52:29.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Newspaper.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.edmx",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.edmx",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.edmx [Diagram1]",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Models\\Newspaper.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-20T05:49:34.508Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminAreaAreaRegistration.cs",
+              "DocumentMoniker": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\AdminAreaAreaRegistration.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\AdminAreaAreaRegistration.cs",
+              "ToolTip": "D:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n Newspaper\\\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\AdminAreaAreaRegistration.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n Newspaper\\Areas\\AdminArea\\AdminAreaAreaRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:44:52.027Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

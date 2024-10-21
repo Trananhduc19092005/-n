@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewspaperDboV3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="Admin_id" />
+    </Key>
+    <Property Name="Admin_usernane" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Admin_password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Admin_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Guesses" Relationship="Self.FK__Guess__Admin_id__3C69FB99" FromRole="Admin" ToRole="Guess" />
+    <NavigationProperty Name="Newspapers" Relationship="Self.FK__Newspaper__Admin__44FF419A" FromRole="Admin" ToRole="Newspaper" />
+  </EntityType>
+  <EntityType Name="ChuyenMuc">
+    <Key>
+      <PropertyRef Name="Id_chuyenmuc" />
+    </Key>
+    <Property Name="Id_chuyenmuc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LoaiChuyenMuc" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Newspapers" Relationship="Self.FK__Newspaper__Id_ch__45F365D3" FromRole="ChuyenMuc" ToRole="Newspaper" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Comment_id" />
+    </Key>
+    <Property Name="Comment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Comment_content" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Guess_id" Type="Int32" />
+    <NavigationProperty Name="Guess" Relationship="Self.FK__Comment__Guess_i__3F466844" FromRole="Comment" ToRole="Guess" />
+  </EntityType>
+  <EntityType Name="Guess">
+    <Key>
+      <PropertyRef Name="Guess_id" />
+    </Key>
+    <Property Name="Guess_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Guess_name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Admin_id" Type="Int32" />
+    <NavigationProperty Name="Admin" Relationship="Self.FK__Guess__Admin_id__3C69FB99" FromRole="Guess" ToRole="Admin" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK__Comment__Guess_i__3F466844" FromRole="Guess" ToRole="Comment" />
+    <NavigationProperty Name="Likeds" Relationship="Self.FK__Liked__Guess_id__4222D4EF" FromRole="Guess" ToRole="Liked" />
+    <Property Name="Guess_Password" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Liked">
+    <Key>
+      <PropertyRef Name="LikedId" />
+    </Key>
+    <Property Name="LikedId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Guess_id" Type="Int32" />
+    <NavigationProperty Name="Guess" Relationship="Self.FK__Liked__Guess_id__4222D4EF" FromRole="Liked" ToRole="Guess" />
+  </EntityType>
+  <EntityType Name="Newspaper">
+    <Key>
+      <PropertyRef Name="Id_bao" />
+    </Key>
+    <Property Name="Id_bao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Anh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="NoiDung" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TieuDe" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Admin_id" Type="Int32" Nullable="false" />
+    <Property Name="Id_chuyenmuc" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Admin" Relationship="Self.FK__Newspaper__Admin__44FF419A" FromRole="Newspaper" ToRole="Admin" />
+    <NavigationProperty Name="ChuyenMuc" Relationship="Self.FK__Newspaper__Id_ch__45F365D3" FromRole="Newspaper" ToRole="ChuyenMuc" />
+    <Property Name="TieuDePhu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__Guess__Admin_id__3C69FB99">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="0..1" />
+    <End Role="Guess" Type="Self.Guess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="Admin_id" />
+      </Principal>
+      <Dependent Role="Guess">
+        <PropertyRef Name="Admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Newspaper__Admin__44FF419A">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="1" />
+    <End Role="Newspaper" Type="Self.Newspaper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="Admin_id" />
+      </Principal>
+      <Dependent Role="Newspaper">
+        <PropertyRef Name="Admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Newspaper__Id_ch__45F365D3">
+    <End Role="ChuyenMuc" Type="Self.ChuyenMuc" Multiplicity="1" />
+    <End Role="Newspaper" Type="Self.Newspaper" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChuyenMuc">
+        <PropertyRef Name="Id_chuyenmuc" />
+      </Principal>
+      <Dependent Role="Newspaper">
+        <PropertyRef Name="Id_chuyenmuc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comment__Guess_i__3F466844">
+    <End Role="Guess" Type="Self.Guess" Multiplicity="0..1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guess">
+        <PropertyRef Name="Guess_id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="Guess_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Liked__Guess_id__4222D4EF">
+    <End Role="Guess" Type="Self.Guess" Multiplicity="0..1" />
+    <End Role="Liked" Type="Self.Liked" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guess">
+        <PropertyRef Name="Guess_id" />
+      </Principal>
+      <Dependent Role="Liked">
+        <PropertyRef Name="Guess_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NewspaperDboV3Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <EntitySet Name="ChuyenMucs" EntityType="Self.ChuyenMuc" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="Guesses" EntityType="Self.Guess" />
+    <EntitySet Name="Likeds" EntityType="Self.Liked" />
+    <EntitySet Name="Newspapers" EntityType="Self.Newspaper" />
+    <AssociationSet Name="FK__Guess__Admin_id__3C69FB99" Association="Self.FK__Guess__Admin_id__3C69FB99">
+      <End Role="Admin" EntitySet="Admins" />
+      <End Role="Guess" EntitySet="Guesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Newspaper__Admin__44FF419A" Association="Self.FK__Newspaper__Admin__44FF419A">
+      <End Role="Admin" EntitySet="Admins" />
+      <End Role="Newspaper" EntitySet="Newspapers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Newspaper__Id_ch__45F365D3" Association="Self.FK__Newspaper__Id_ch__45F365D3">
+      <End Role="ChuyenMuc" EntitySet="ChuyenMucs" />
+      <End Role="Newspaper" EntitySet="Newspapers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comment__Guess_i__3F466844" Association="Self.FK__Comment__Guess_i__3F466844">
+      <End Role="Guess" EntitySet="Guesses" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Liked__Guess_id__4222D4EF" Association="Self.FK__Liked__Guess_id__4222D4EF">
+      <End Role="Guess" EntitySet="Guesses" />
+      <End Role="Liked" EntitySet="Likeds" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

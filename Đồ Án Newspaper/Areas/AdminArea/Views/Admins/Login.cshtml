@@ -1,0 +1,80 @@
+﻿@model Đồ_Án_Newspaper.Models.Admin
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        .container
+        {
+            min-height : 100vh;
+        }
+
+        .input
+        {
+            width : 300px;
+        }
+
+        .form-horizontal
+        {
+            box-shadow : 0px 0px 10px black;
+            padding : 30px;
+        }
+    </style>
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <h4 class="text-center bg-primary text-light p-3"> Log In </h4>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Admin_usernane, htmlAttributes: new { @class = "control-label col-md-2 mt-2 mb-1" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Admin_usernane, new { htmlAttributes = new { @class = "form-control mb-3 input" } })
+                    @Html.ValidationMessageFor(model => model.Admin_usernane, "", new { @class = "text-danger" })
+                    <p> @ViewBag.error </p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Admin_password, htmlAttributes: new { @class = "control-label col-md-2 mt-2 mb-1" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Admin_password, new { htmlAttributes = new { @class = "form-control input" } })
+                    @Html.ValidationMessageFor(model => model.Admin_password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group row row-cols-2">
+                <div class="col-md-offset-2 col-md-10 col-6 d-flex justify-content-between">
+                    <input type="submit" value="Login" class="btn btn-primary mt-3" />
+                </div>
+
+            </div>
+            <div class="mt-3">
+                <p>
+                    You Dont Have An Account ?
+                </p>
+                @Html.ActionLink("Create An Account Here", "Create", "Admins", new { @class = "btn btn-success" })
+
+            </div>
+        </div>
+        }
+
+        
+    </div>
+</body>
+</html>
+
+

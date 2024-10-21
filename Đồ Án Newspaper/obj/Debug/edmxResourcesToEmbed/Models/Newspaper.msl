@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NewspaperDboV3ModelStoreContainer" CdmEntityContainer="NewspaperDboV3Entities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="NewspaperDboV3Model.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="Admin_usernane" ColumnName="Admin_usernane" />
+          <ScalarProperty Name="Admin_password" ColumnName="Admin_password" />
+          <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChuyenMucs">
+      <EntityTypeMapping TypeName="NewspaperDboV3Model.ChuyenMuc">
+        <MappingFragment StoreEntitySet="ChuyenMuc">
+          <ScalarProperty Name="Id_chuyenmuc" ColumnName="Id_chuyenmuc" />
+          <ScalarProperty Name="LoaiChuyenMuc" ColumnName="LoaiChuyenMuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="NewspaperDboV3Model.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="Comment_id" ColumnName="Comment_id" />
+          <ScalarProperty Name="Comment_content" ColumnName="Comment_content" />
+          <ScalarProperty Name="Guess_id" ColumnName="Guess_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guesses">
+      <EntityTypeMapping TypeName="NewspaperDboV3Model.Guess">
+        <MappingFragment StoreEntitySet="Guess">
+          <ScalarProperty Name="Guess_Password" ColumnName="Guess_Password" />
+          <ScalarProperty Name="Guess_id" ColumnName="Guess_id" />
+          <ScalarProperty Name="Guess_name" ColumnName="Guess_name" />
+          <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Likeds">
+      <EntityTypeMapping TypeName="NewspaperDboV3Model.Liked">
+        <MappingFragment StoreEntitySet="Liked">
+          <ScalarProperty Name="LikedId" ColumnName="LikedId" />
+          <ScalarProperty Name="Guess_id" ColumnName="Guess_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Newspapers">
+      <EntityTypeMapping TypeName="NewspaperDboV3Model.Newspaper">
+        <MappingFragment StoreEntitySet="Newspaper">
+          <ScalarProperty Name="TieuDePhu" ColumnName="TieuDePhu" />
+          <ScalarProperty Name="Id_bao" ColumnName="Id_bao" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+          <ScalarProperty Name="NoiDung" ColumnName="NoiDung" />
+          <ScalarProperty Name="TieuDe" ColumnName="TieuDe" />
+          <ScalarProperty Name="Admin_id" ColumnName="Admin_id" />
+          <ScalarProperty Name="Id_chuyenmuc" ColumnName="Id_chuyenmuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

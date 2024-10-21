@@ -1,0 +1,36 @@
+﻿@model Đồ_Án_Newspaper.Models.ChuyenMuc
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<h2> Chi Tiết Chuyên Mục </h2>
+
+<div>
+    <table class="table table-dark">
+        <tr>
+            <th>
+                Id Chuyên mục
+            </th>
+
+            <th>
+                Loại Chuyên Mục
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.Id_chuyenmuc)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.LoaiChuyenMuc)
+            </td>
+        </tr>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", "ChuyenMucs" , new { id = Model.Id_chuyenmuc } , new {@class = "btn btn-primary"} ) |
+    @Html.ActionLink("Back to List", "Index", " " , new { @class = "btn btn-success" })
+</p>

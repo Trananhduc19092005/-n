@@ -1,0 +1,56 @@
+﻿@model Đồ_Án_Newspaper.Models.Newspaper
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<h2> Xóa Bài Báo </h2>
+
+<h3> Bạn Có Chắc Là Bạn Muốn Xóa Bài Báo Này Không ? </h3>
+<div>
+    <hr />
+    <div class="card">
+        <div class="card-header">
+            <h4> Tiêu Đề </h4>
+            @Html.DisplayFor(model => model.TieuDe)
+        </div>
+
+        <div class="card-header">
+            <h4> Tiêu Đề Phụ </h4>
+            @Html.DisplayFor(model => model.TieuDePhu)
+        </div>
+
+        <div class="card-body">
+            <h4>
+                Nội Dung
+            </h4>
+            @Html.DisplayFor(model => model.NoiDung)
+        </div>
+
+        <div class="card-footer">
+            <h4>
+                Chuyên Mục
+            </h4>
+
+            @Html.DisplayFor(model => model.ChuyenMuc.LoaiChuyenMuc)
+        </div>
+
+        <div class="card-footer">
+            <h4>
+                Người Quản Lý
+            </h4>
+
+            @Html.DisplayFor(model => model.Admin.Admin_usernane)
+        </div>
+    </div>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color mt-3">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index" , " " , new {@class = "btn btn-success"})
+        </div>
+    }
+</div>
